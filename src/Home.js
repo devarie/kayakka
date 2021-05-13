@@ -4,7 +4,7 @@ import ImageGridList from "./image-flex";
 
 const Home = () => {
   return <div>
-    <ImageGridList/>
+      <ImageGridList/>
   </div>
   
 };

@@ -19,7 +19,8 @@ export default function App() {
        
            
             <ButtonAppBar/>
-           <ImageGridList/>
+            <Home/>
+         
           
 
          
