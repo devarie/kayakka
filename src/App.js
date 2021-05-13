@@ -4,6 +4,7 @@ import ButtonAppBar from './ButtonAppBar';
 import Details from "./Details";
 import React from "react";
 import Home from './Home';
+import ImageGridList from "./image-flex";
 
 
 
@@ -18,7 +19,7 @@ export default function App() {
        
            
             <ButtonAppBar/>
-          
+           <ImageGridList/>
           
 
          
