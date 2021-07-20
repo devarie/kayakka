@@ -12,7 +12,8 @@ import { Route, Switch } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import SignInSide from "./components/Signin";
 import SignUp from "./components/SingUp";
-
+import StickyFooter from "./StickeyFooter";
+import Pricing from "./Pricing";
 const useStyles = makeStyles({});
 
 export default function App() {
@@ -22,18 +23,21 @@ export default function App() {
       <div>
         
      <Header/>
+  
        <Switch>
         <Route exact from="/" render={props => <Home {...props} />} />
-        <Route exact path="/contact" render={props => <Contact {...props} />} />
+        <Route exact path="/Pricing" render={props => <Pricing {...props} />} />
         <Route exact path="/details" render={props => <Details {...props} />} />
         <Route exact path="/SignIn" render={props => <Signin {...props} />} />
         <Route exact path="/Signup" render={props => <SignUp {...props} />} />
+        <Route exact path="/StickyFooter" render={props => <SignUp {...props} />} />
+        
       </Switch>
 
           
            
           
-<Footer/>
+<StickyFooter/>
          
 
         

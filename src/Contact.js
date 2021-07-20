@@ -1,9 +1,12 @@
 import React from "react";
+import Pricing from "./Pricing";
 
 const Contact = () => {
-  return <h1>Fallen in love for an expeditioniiiiiii? 
-  Contact me at: kayakexpeditions@gmail.com</h1>
-          
-};
+  return (
+  <div>
+
+          <Pricing/>
+          </div>
+  )};
 
 export default Contact;

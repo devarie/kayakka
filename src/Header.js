@@ -64,8 +64,8 @@ const Header = props => {
       pageURL: "/"
     },
     {
-      menuTitle: "Contact",
-      pageURL: "/contact"
+      menuTitle: "Pricing",
+      pageURL: "/Pricing"
     },
     {
     menuTitle: "SignIn",
@@ -78,7 +78,7 @@ const Header = props => {
       <AppBar maxwidth="lg" position="sticky" style={{ background: 'linear-gradient(45deg, rgba(245, 229, 27, 1) 30%,rgba(255, 255, 126, 1)  90%)' }} >
         <Toolbar>
           <Typography color="textPrimary" variant="h6" className={classes.title}>
-            Kayaknews
+            Kayak Expeditions
           </Typography>
           {/* {isMobile ? ( */}
             <>
