@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kayakka/static/css/main.1635e87c.chunk.css",
-    "main.js": "/kayakka/static/js/main.11845e29.chunk.js",
-    "main.js.map": "/kayakka/static/js/main.11845e29.chunk.js.map",
+    "main.js": "/kayakka/static/js/main.b631ccea.chunk.js",
+    "main.js.map": "/kayakka/static/js/main.b631ccea.chunk.js.map",
     "runtime-main.js": "/kayakka/static/js/runtime-main.06fc4588.js",
     "runtime-main.js.map": "/kayakka/static/js/runtime-main.06fc4588.js.map",
-    "static/js/2.2305cf39.chunk.js": "/kayakka/static/js/2.2305cf39.chunk.js",
-    "static/js/2.2305cf39.chunk.js.map": "/kayakka/static/js/2.2305cf39.chunk.js.map",
+    "static/js/2.dfc6c31c.chunk.js": "/kayakka/static/js/2.dfc6c31c.chunk.js",
+    "static/js/2.dfc6c31c.chunk.js.map": "/kayakka/static/js/2.dfc6c31c.chunk.js.map",
     "index.html": "/kayakka/index.html",
     "static/css/main.1635e87c.chunk.css.map": "/kayakka/static/css/main.1635e87c.chunk.css.map",
-    "static/js/2.2305cf39.chunk.js.LICENSE.txt": "/kayakka/static/js/2.2305cf39.chunk.js.LICENSE.txt",
+    "static/js/2.dfc6c31c.chunk.js.LICENSE.txt": "/kayakka/static/js/2.dfc6c31c.chunk.js.LICENSE.txt",
     "static/media/Autumn-adam.106c10a0.JPEG": "/kayakka/static/media/Autumn-adam.106c10a0.JPEG",
     "static/media/Zelfbedieningsluis.407a589e.JPEG": "/kayakka/static/media/Zelfbedieningsluis.407a589e.JPEG",
     "static/media/duikboot.df2d0f67.JPEG": "/kayakka/static/media/duikboot.df2d0f67.JPEG",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.06fc4588.js",
-    "static/js/2.2305cf39.chunk.js",
+    "static/js/2.dfc6c31c.chunk.js",
     "static/css/main.1635e87c.chunk.css",
-    "static/js/main.11845e29.chunk.js"
+    "static/js/main.b631ccea.chunk.js"
   ]
 }
