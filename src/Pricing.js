@@ -87,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
 const tiers = [
   {
     title: '3 hour daytrip',
-    price: '485',
+    price: '340',
     description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment'],
     buttonText: 'Reserver your Expedition',
     buttonVariant: 'outlined',
