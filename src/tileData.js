@@ -7,10 +7,7 @@ import kayakart from "./Images/kayak-art.JPEG";
 import scheepvaartmuseum from "./Images/scheepvaartmuseum.jpg";
 import Zelfbedieningsluis from "./Images/Zelfbedieningsluis.JPEG";
 import zwaantjes from "./Images/zwaantjes.JPEG";
-import MolenZo from "./Images/MolenZO.jpg";
-import OnderdebrugZO from "./Images/OnderdebrugZO.jpg.JPEG";
-import SchilderijZO from "./Images/SchilderijZO.jpg";
-import Waterlelies from "./Images/Waterlelies.jpg";
+
 
 const tileData = [
    
@@ -79,28 +76,3 @@ const tileData = [
   
   export default tileData;
 
-  const tileDataZO = [
-
-    { img:
-    MolenZo,
-  title:"MolenZo",
-  author: "Dylan",    
-},
-{ img:
-  OnderdebrugZO,
-title:"OnderdebrugZO",
-author: "Dylan",
-cols:2,    
-},
-{ img:
-  SchilderijZO,
-title:"SchilderijZO",
-author: "Dylan",
-cols:2,    
-},
-{ img:
-  Waterlelies,
-title:"MolenZo",
-author: "Dylan",    
-}
-  ]
