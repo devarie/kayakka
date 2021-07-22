@@ -20,34 +20,18 @@ export default function App() {
   const classes = useStyles();
   return (
     
-      <div>
-        
+    <div>
      <Header/>
-  
        <Switch>
         <Route exact from="/" render={props => <Home {...props} />} />
         <Route exact path="/Pricing" render={props => <Pricing {...props} />} />
         <Route exact path="/details" render={props => <Details {...props} />} />
         <Route exact path="/SignIn" render={props => <Signin {...props} />} />
         <Route exact path="/Signup" render={props => <SignUp {...props} />} />
-        <Route exact path="/StickyFooter" render={props => <SignUp {...props} />} />
-        
-      </Switch>
-
-          
-           
-          
-<StickyFooter/>
-         
-
-        
-
-
-          
-          
-          
-      </div>
-   
+        <Route exact path="/StickyFooter" render={props => <SignUp {...props} />} /> 
+      </Switch>       
+    <StickyFooter/>
+  </div>
   );
 }
 

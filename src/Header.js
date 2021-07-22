@@ -77,7 +77,7 @@ const Header = props => {
     <div className={classes.root}>
       <AppBar maxwidth="lg" position="sticky" style={{ background: 'linear-gradient(45deg, rgba(245, 229, 27, 1) 30%,rgba(255, 255, 126, 1)  90%)' }} >
         <Toolbar>
-          <Typography color="textPrimary" variant="h6" className={classes.title}>
+          <Typography color="textPrimary" variant="h5" className={classes.title}>
             Kayak Expeditions
           </Typography>
           {/* {isMobile ? ( */}
