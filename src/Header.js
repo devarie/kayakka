@@ -7,13 +7,11 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
-import Button from "@material-ui/core/Button";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
+// import Button from "@material-ui/core/Button";
+// import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { withRouter } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
-
-
   root: {
     textcolor:"textPrimary",
     flexGrow: 1
@@ -42,8 +40,8 @@ const Header = props => {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("xs"));
+  // const theme = useTheme();
+  // const isMobile = useMediaQuery(theme.breakpoints.down("xs"));
 
   const handleMenu = event => {
     setAnchorEl(event.currentTarget);
@@ -54,9 +52,9 @@ const Header = props => {
     setAnchorEl(null);
   };
 
-  const handleButtonClick = pageURL => {
-    history.push(pageURL);
-  };
+  // const handleButtonClick = pageURL => {
+  //   history.push(pageURL);
+  // };
 
   const menuItems = [
     {

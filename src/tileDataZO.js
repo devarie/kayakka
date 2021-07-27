@@ -3,10 +3,6 @@ import OnderdebrugZO from "./Images/OnderdebrugZO.jpg";
 import SchilderijZO from "./Images/SchilderijZO.jpg";
 import Waterlelies from "./Images/Waterlelies.jpg";
 
-
-  
-
-
 const tileDataZO = [
 
     { img:

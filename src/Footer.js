@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Container';
 
 import handleMenuClick from "./Header"
 
-
 const useStyles = makeStyles({
     root: {
       background: 'linear-gradient(45deg, rgba(245, 229, 27, 1) 30%,rgba(255, 255, 126, 1)  90%)',

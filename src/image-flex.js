@@ -18,9 +18,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-
-
-
 /**
  * The example data is structured as follows:
  *
