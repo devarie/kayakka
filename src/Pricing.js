@@ -10,7 +10,7 @@ import StarIcon from '@material-ui/icons/StarBorder';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
+import Link from '@material-ui/core/Link';
 // function Copyright() {
 //   return (
 //     <Typography variant="body2" color="textSecondary" align="center">
@@ -82,10 +82,29 @@ const useStyles = makeStyles((theme) => ({
 
 const tiers = [
   {
-    title: '3 hour daytrip',
+    title: '2.5 hour daytrip',
+    price: '20',
+    description: ['1 Persons', 'Kayak and Paddles', 'Luggage compartment'],
+    buttonText: <div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/s10189cb097b516147fb8c75418ba572302a8c856">Reserve your Expedition</Link></div>,
+    buttonVariant: 'outlined',
+  },{
+    title: '2.5 hour daytrip',
+    price: '40',
+    description: ['2 Persons', '2 Kayaks and Paddles', 'Luggage compartments'],
+    buttonText: <div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sa01a76f4b4c339ee89569dc98f03171b370ba285">Reserve your Expedition</Link></div>,
+    buttonVariant: 'outlined',
+  },{
+    title: '2.5 hour daytrip',
+    price: '40',
+    description: ['2 Persons', '2 person Kayak and Paddles',],
+    buttonText: <div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sce393183ebc52e53e49879be6f846daff8ca468e">Reserve your Expedition</Link></div>,
+    buttonVariant: 'outlined',
+  },
+  {
+    title: '4 hour daytrip',
     price: '340',
     description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment'],
-    buttonText: 'Reserve your Expedition',
+    buttonText: <div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
     buttonVariant: 'outlined',
   },
   {
@@ -99,7 +118,7 @@ const tiers = [
       'Luggage compartment',
       'Fine dining possibilities',
     ],
-    buttonText: 'Reserve your Expedition',
+    buttonText: <div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
     buttonVariant: 'contained',
   },
   {
@@ -113,11 +132,10 @@ const tiers = [
       'Fine dining possibilities',
       'Scenery Photography'
     ],
-    buttonText: 'Reserve your Expedition',
+    
+    buttonText:<div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
     buttonVariant: 'outlined',
-  },
-];
-// const footers = [
+  },];
 //   {
 //     title: 'Company',
 //     description: ['Team', 'History', 'Contact us', 'Locations'],
@@ -205,7 +223,7 @@ export default function Pricing() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant={tier.buttonVariant} color="primary">
+                  <Button fullWidth variant={tier.buttonVariant} color="primary" href={tier.link}>
                     {tier.buttonText}
                   </Button>
                 </CardActions>
