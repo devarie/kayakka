@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kayakka/static/css/main.1635e87c.chunk.css",
-    "main.js": "/kayakka/static/js/main.6923fd56.chunk.js",
-    "main.js.map": "/kayakka/static/js/main.6923fd56.chunk.js.map",
+    "main.js": "/kayakka/static/js/main.f8db9e90.chunk.js",
+    "main.js.map": "/kayakka/static/js/main.f8db9e90.chunk.js.map",
     "runtime-main.js": "/kayakka/static/js/runtime-main.06fc4588.js",
     "runtime-main.js.map": "/kayakka/static/js/runtime-main.06fc4588.js.map",
     "static/js/2.0102bcf8.chunk.js": "/kayakka/static/js/2.0102bcf8.chunk.js",
@@ -13,8 +13,10 @@
     "static/media/Autumn-adam.106c10a0.JPEG": "/kayakka/static/media/Autumn-adam.106c10a0.JPEG",
     "static/media/MolenZO.989d3de1.jpg": "/kayakka/static/media/MolenZO.989d3de1.jpg",
     "static/media/OnderdebrugZO.dad36bcd.jpg": "/kayakka/static/media/OnderdebrugZO.dad36bcd.jpg",
+    "static/media/Prinseneiland.17746212.JPG": "/kayakka/static/media/Prinseneiland.17746212.JPG",
     "static/media/SchilderijZO.b17a720e.jpg": "/kayakka/static/media/SchilderijZO.b17a720e.jpg",
     "static/media/Waterlelies.4eca66f2.jpg": "/kayakka/static/media/Waterlelies.4eca66f2.jpg",
+    "static/media/Zaandam.2e693fc1.JPG": "/kayakka/static/media/Zaandam.2e693fc1.JPG",
     "static/media/Zelfbedieningsluis.407a589e.JPEG": "/kayakka/static/media/Zelfbedieningsluis.407a589e.JPEG",
     "static/media/duikboot.df2d0f67.JPEG": "/kayakka/static/media/duikboot.df2d0f67.JPEG",
     "static/media/excelsiorbnb.291f52ef.JPEG": "/kayakka/static/media/excelsiorbnb.291f52ef.JPEG",
@@ -28,6 +30,6 @@
     "static/js/runtime-main.06fc4588.js",
     "static/js/2.0102bcf8.chunk.js",
     "static/css/main.1635e87c.chunk.css",
-    "static/js/main.6923fd56.chunk.js"
+    "static/js/main.f8db9e90.chunk.js"
   ]
 }
