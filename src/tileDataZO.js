@@ -2,6 +2,8 @@ import MolenZo from "./Images/MolenZO.jpg";
 import OnderdebrugZO from "./Images/OnderdebrugZO.jpg";
 import SchilderijZO from "./Images/SchilderijZO.jpg";
 import Waterlelies from "./Images/Waterlelies.jpg";
+import Zaandam from "./Images/Zaandam.JPG";
+import Prinseneiland from "./Images/Prinseneiland.JPG";
 
 const tileDataZO = [
 
@@ -11,11 +13,18 @@ const tileDataZO = [
   author: "Dylan",    
 },
 { img:
-  OnderdebrugZO,
-title:"OnderdebrugZO",
-author: "Dylan",
-cols:2,    
+  Prinseneiland,
+title:"Prinseneiland",
+author: "Arie",
+cols:1,    
 },
+{ img:
+  Zaandam,
+title:"Zaandam",
+author: "Arie",
+cols:1,    
+},
+
 { img:
   SchilderijZO,
 title:"SchilderijZO",
