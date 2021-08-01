@@ -116,6 +116,7 @@ const tiers = [
       'Kayaks and Paddles',
       'Guide included',
       'Luggage compartment',
+      '1 hotel night incl.',
       'Fine dining possibilities',
     ],
     buttonText: <div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
@@ -129,6 +130,7 @@ const tiers = [
       'Kayaks and Paddles',
       'Guide included',
       'Luggage compartment',
+      '2 hotel nights incl.',
       'Fine dining possibilities',
       'Scenery Photography'
     ],
