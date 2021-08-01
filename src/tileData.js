@@ -51,13 +51,13 @@ const tileData = [
       title: "Bike",
       author: "danfador"
     },
-    {
-      img:
-          scheepvaartmuseum,
-        title: "Bike",
-        author: "danfador",
-        cols: 2
-    },
+    // {
+    //   img:
+    //       scheepvaartmuseum,
+    //     title: "Bike",
+    //     author: "danfador",
+    //     cols: 2
+    // },
     {
       img:
         Zelfbedieningsluis,
@@ -65,12 +65,12 @@ const tileData = [
       author: "danfador",
       cols:2
     },
-    {
-      img:
-        zwaantjes,
-      title: "Bike",
-      author: "danfador"
-    }
+    // {
+    //   img:
+    //     zwaantjes,
+    //   title: "Bike",
+    //   author: "danfador"
+    // }
     ];
   
   
