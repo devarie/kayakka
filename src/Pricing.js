@@ -104,7 +104,7 @@ const tiers = [
     title: '4 hour daytrip',
     price: '340',
     description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment'],
-    buttonText: <div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
+    buttonText: <div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/78b57d2a-8abe-4c90-8ab6-a6195397235b">Reserve your Expedition</Link></div>,
     buttonVariant: 'outlined',
   },
   {
@@ -119,12 +119,12 @@ const tiers = [
       '1 hotel night incl.',
       'Fine dining possibilities',
     ],
-    buttonText: <div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
+    buttonText: <div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/d079eb7b-431c-4f46-b3ac-1467b16b896e">Reserve your Expedition</Link></div>,
     buttonVariant: 'contained',
   },
   {
     title: 'Weekender',
-    price: '1145',
+    price: '1140',
     description: [
       '4 Persons',
       'Kayaks and Paddles',
@@ -135,7 +135,7 @@ const tiers = [
       'Scenery Photography'
     ],
     
-    buttonText:<div> <Link color="inherit" href="https://kayakexpeditions.setmore.com">Reserve your Expedition</Link></div>,
+    buttonText:<div> <Link color="inherit" href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/da5536ed-7a18-47e4-a511-153fc7f7d63f">Reserve your Expedition</Link></div>,
     buttonVariant: 'outlined',
   },];
 //   {
