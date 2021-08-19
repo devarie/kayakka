@@ -1,10 +1,10 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import tileData from './tileData';
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import GridList from '@material-ui/core/GridList'
+import GridListTile from '@material-ui/core/GridListTile'
+import tileData from './TileData'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -13,10 +13,10 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   gridList: {
-    width: "sm",
-    height: "sm",
+    width: 'sm',
+    height: 'sm',
   },
-}));
+}))
 
 /**
  * The example data is structured as follows:
@@ -37,17 +37,17 @@ const useStyles = makeStyles((theme) => ({
  * ];
  */
 export default function ImageGridList() {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <div className={classes.root}>
       <GridList cellHeight={240} className={classes.gridList} cols={3}>
-        {tileData.map((tile) => (
+        {tileData.map(tile => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
             <img src={tile.img} alt={tile.title} />
           </GridListTile>
         ))}
       </GridList>
     </div>
-  );
+  )
 }
