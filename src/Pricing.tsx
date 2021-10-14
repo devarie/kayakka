@@ -10,19 +10,6 @@ import StarIcon from '@material-ui/icons/StarBorder'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
-import Link from '@material-ui/core/Link'
-// function Copyright() {
-//   return (
-//     <Typography variant="body2" color="textSecondary" align="center">
-//       {'Copyright © '}
-//       <Link color="inherit" href="https://material-ui.com/">
-//         Your Website
-//       </Link>{' '}
-//       {new Date().getFullYear()}
-//       {'.'}
-//     </Typography>
-//   );
-// }
 
 const useStyles = makeStyles(theme => ({
   // root: {
@@ -33,6 +20,7 @@ const useStyles = makeStyles(theme => ({
     margin: 0,
     padding: 0,
     listStyle: 'none',
+    minheigt: '3000px',
     // height: '1vh',
   },
 
@@ -87,17 +75,18 @@ const tiers = [
     title: '2.5 hour daytrip',
     price: '20',
     description: ['1 Persons', 'Kayak and Paddles', 'Luggage compartment'],
-    buttontext: 'Reserve your Expedition',
+    buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
     color: 'inherit',
-    link: 'href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/s10189cb097b516147fb8c75418ba572302a8c856"',
+    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/s10189cb097b516147fb8c75418ba572302a8c856',
   },
   {
     title: '2.5 hour daytrip',
     price: '40',
     description: ['2 Persons', '2 Kayaks and Paddles', 'Luggage compartments'],
-    buttonText: 'Reserve your trip',
-    link: 'href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sa01a76f4b4c339ee89569dc98f03171b370ba285"',
+    buttonText: 'Reserve your expedition',
+    color: 'inherit',
+    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sa01a76f4b4c339ee89569dc98f03171b370ba285',
     buttonVariant: 'outlined',
   },
   {
@@ -105,17 +94,18 @@ const tiers = [
     price: '40',
     description: ['2 Persons', '2 person Kayak and Paddles'],
     buttonText: 'Reserve your Expedition',
+    color: 'inherit',
     buttonVariant: 'contained',
-    link: 'href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sce393183ebc52e53e49879be6f846daff8ca468e"',
+    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sce393183ebc52e53e49879be6f846daff8ca468e',
   },
   {
     title: '4 hour daytrip',
     price: '340',
-    description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment'],
+    description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment', '', ''],
     buttonVariant: 'outlined',
     buttonText: 'Reserver your Expedition',
     color: 'inherit',
-    link: 'href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/78b57d2a-8abe-4c90-8ab6-a6195397235b"',
+    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/78b57d2a-8abe-4c90-8ab6-a6195397235b',
   },
   {
     title: 'Day and Night trip',
@@ -131,7 +121,7 @@ const tiers = [
     ],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'contained',
-    link: 'href="http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/d079eb7b-431c-4f46-b3ac-1467b16b896e"',
+    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/d079eb7b-431c-4f46-b3ac-1467b16b896e',
   },
   {
     title: 'Weekender',
@@ -151,23 +141,6 @@ const tiers = [
     link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/da5536ed-7a18-47e4-a511-153fc7f7d63f',
   },
 ]
-//   {
-//     title: 'Company',
-//     description: ['Team', 'History', 'Contact us', 'Locations'],
-//   },
-//   {
-//     title: 'Features',
-//     description: ['Cool stuff', 'Random feature', 'Team feature', 'Developer stuff', 'Another one'],
-//   },
-//   {
-//     title: 'Resources',
-//     description: ['Resource', 'Resource name', 'Another resource', 'Final resource'],
-//   },
-//   {
-//     title: 'Legal',
-//     description: ['Privacy policy', 'Terms of use'],
-//   },
-// ];
 
 export default function Pricing() {
   const classes = useStyles()
@@ -175,32 +148,6 @@ export default function Pricing() {
   return (
     <>
       <CssBaseline />
-      {/* <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
-        <Toolbar className={classes.toolbar}>
-          <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-            Company name
-          </Typography>
-
-//<link>'href=</link>',
-  //
-
-          <nav>
-            <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-              Features
-            </Link>
-            <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-              Enterprise
-            </Link>
-            <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-              Support
-            </Link>
-          </nav>
-          <Button href="#" color="primary" variant="outlined" className={classes.link}>
-            Login
-          </Button>
-        </Toolbar>
-      </AppBar> */}
-      {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
           Pricing
@@ -240,7 +187,7 @@ export default function Pricing() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant="outlined" color="primary" href={tier.link}>
+                  <Button fullWidth variant="outlined" color="primary" href={tier.link} target="_blank">
                     {tier.buttonText}
                   </Button>
                 </CardActions>

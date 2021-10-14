@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container'
 import React from 'react'
 import ImageGridList from './Imageflex'
 import ImageGridListZO from './ImageflexZO'
+import Nightkayaking from './Cloudinary'
 
 const useStyles = makeStyles(theme => ({
   heroContent: {
@@ -20,11 +21,12 @@ const Home = () => {
 
   return (
     <div>
-      <ImageGridListZO />
+      <Nightkayaking />
+      {/* <ImageGridListZO /> */}
       <div className={classes.boxx}>
         <Container maxWidth="sm" component="main" className={classes.heroContent}>
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-            Kayak Expeditions
+            KAYAK EXPEDITIONS
           </Typography>
           <Typography variant="h5" align="center" color="textSecondary">
             Get in and paddle away, you are not meant to stay. Explore Adam and his surroundings in a explicit and sophisticated way,

@@ -79,7 +79,7 @@ const Header = (props: { history: any }) => {
       >
         <Toolbar>
           <Typography color="textPrimary" variant="h5" className={classes.title}>
-            Kayak Expeditions
+            KAYAK EXPEDITIONS
           </Typography>
           {/* {isMobile ? ( */}
           <>
