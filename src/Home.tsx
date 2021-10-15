@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div>
-      <Nightkayaking />
+      {/* <Nightkayaking /> */}
       {/* <ImageGridListZO /> */}
       <div className={classes.boxx}>
         <Container maxWidth="sm" component="main" className={classes.heroContent}>

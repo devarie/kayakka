@@ -50,7 +50,7 @@ module.exports = {
     'no-multiple-empty-lines': 1,
     'no-use-before-define': 'off',
     'implicit-arrow-linebreak': 0,
-    'linebreak-style': ['error', 'windows'],
+    'linebreak-style': ['error', 'unix'],
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-unused-expressions': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
