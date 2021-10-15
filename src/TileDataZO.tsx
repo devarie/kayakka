@@ -1,8 +1,8 @@
-import MolenZo from './images/MolenZO.jpg'
-import SchilderijZO from './images/SchilderijZO.jpg'
-import Waterlelies from './images/Waterlelies.jpg'
-import Zaandam from './images/Zaandam.jpg'
-import Prinseneiland from './images/Prinseneiland.jpg'
+import MolenZo from './images/MolenZO.jpeg'
+import SchilderijZO from './images/SchilderijZO.jpeg'
+import Waterlelies from './images/Waterlelies.jpeg'
+import Zaandam from './images/Zaandam.jpeg'
+import Prinseneiland from './images/Prinseneiland.jpeg'
 
 const tileDataZO = [
   { img: MolenZo, title: 'MolenZo', author: 'Dylan' },

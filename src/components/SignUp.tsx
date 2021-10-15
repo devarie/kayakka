@@ -21,42 +21,40 @@ function Copyright() {
       <Link color="inherit" href="https://material-ui.com/">
         Your Website
       </Link>{' '}
-      {new Date().getFullYear()}
-      .
+      {new Date().getFullYear()}.
     </Typography>
   )
 }
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      height: '85vh',
-    },
-    image: {
-      backgroundImage: `url(${Autumn})`,
-      backgroundRepeat: 'no-repeat',
-      backgroundColor:
-        theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    },
-    paper: {
-      margin: theme.spacing(8, 4),
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-    },
-    avatar: {
-      margin: theme.spacing(1),
-      backgroundColor: theme.palette.secondary.main,
-    },
-    form: {
-      width: '100%', // Fix IE 11 issue.
-      marginTop: theme.spacing(1),
-    },
-    submit: {
-      margin: theme.spacing(3, 0, 2),
-    },
-  }))
+const useStyles = makeStyles(theme => ({
+  root: {
+    height: '85vh',
+  },
+  image: {
+    backgroundImage: `url(${Autumn})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  },
+  paper: {
+    margin: theme.spacing(8, 4),
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  avatar: {
+    margin: theme.spacing(1),
+    backgroundColor: theme.palette.secondary.main,
+  },
+  form: {
+    width: '100%', // Fix IE 11 issue.
+    marginTop: theme.spacing(1),
+  },
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+  },
+}))
 
 export default function SignUp() {
   const classes = useStyles()
@@ -74,7 +72,6 @@ export default function SignUp() {
             Sign up
           </Typography>
           <form className={classes.form} noValidate>
-
             <TextField
               autoComplete="fname"
               name="firstName"
@@ -86,25 +83,9 @@ export default function SignUp() {
               autoFocus
             />
 
-            <TextField
-              variant="outlined"
-              required
-              fullWidth
-              id="lastName"
-              label="Last Name"
-              name="lastName"
-              autoComplete="lname"
-            />
+            <TextField variant="outlined" required fullWidth id="lastName" label="Last Name" name="lastName" autoComplete="lname" />
 
-            <TextField
-              variant="outlined"
-              required
-              fullWidth
-              id="email"
-              label="Email Address"
-              name="email"
-              autoComplete="email"
-            />
+            <TextField variant="outlined" required fullWidth id="email" label="Email Address" name="email" autoComplete="email" />
 
             <TextField
               variant="outlined"
@@ -122,13 +103,7 @@ export default function SignUp() {
               label="I want to receive inspiration, marketing promotions and updates via email."
             />
 
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-            >
+            <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
               Sign Up
             </Button>
             <Grid container justify="flex-end">
@@ -145,6 +120,5 @@ export default function SignUp() {
         </div>
       </Grid>
     </Grid>
-
   )
 }

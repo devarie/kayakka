@@ -5,7 +5,7 @@ import Details from './Details'
 import Home from './Home'
 import Header from './Header'
 import Signin from './components/Signin'
-import SignUp from './components/SingUp'
+import SignUp from './components/SignUp'
 import StickyFooter from './StickeyFooter'
 import Pricing from './Pricing'
 
