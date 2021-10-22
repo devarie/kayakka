@@ -20,9 +20,9 @@ const useStyles = makeStyles(theme => ({
 
 const Home = () => {
   const classes = useStyles()
- const a = useAxios('bla')
+  const a = useAxios('kayakverkantie/Nightkayaking/KayakplusBavaria_knuyfv.jpg').response
 
- console.log("a", a)
+  console.log('a', a)
 
   return (
     <div>
@@ -30,12 +30,13 @@ const Home = () => {
       {/* <ImageGridListZO /> */}
       <div className={classes.boxx}>
         <Container maxWidth="sm" component="main" className={classes.heroContent}>
+          {a && <img src={a} alt="test" style={{ width: '400px', height: '400px' }} />}
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             KAYAK EXPEDITIONS
           </Typography>
           <Typography variant="h5" align="center" color="textSecondary">
-            Get in and paddle away, you are not meant to stay. Explore Adam and his surroundings in a explicit and sophisticated way,
-            during a route making adventures only you can say!
+            Get in and paddle away, you are not meant to stay. Explore Adam and his surroundings in a explicit and sophisticated way, during
+            a route making adventures only you can say!
           </Typography>
         </Container>
       </div>
