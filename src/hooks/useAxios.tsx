@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react'
-import axios from 'axios'
+import { useState, useEffect } from "react";
+import axios from "axios";
 
-axios.defaults.baseURL = 'http://res.cloudinary.com/kayaknews'
+axios.defaults.baseURL = "http://res.cloudinary.com/kayaknews";
 
 interface CategoryInterface {
   id: string;
@@ -16,32 +16,32 @@ type IData = CategoryInterface[];
 type err = errInterface[];
 
 const UseAxios = (params: any) => {
-  const [response, setResponse] = useState(null)
-  const [error, setError] = useState(null)
-  const [loading, setLoading] = useState(false)
+  const [response, setResponse] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   // eslint-disable-next-line @typescript-eslint/no-shadow
   const fetchData = async (params: any) => {
-    setLoading(true)
+    setLoading(true);
     try {
-      const res = await axios.request(params)
+      const res = await axios.request(params);
 
-      setResponse(res.data)
+      setResponse(res.data);
       // eslint-disable-next-line no-console
-      console.log(res.data)
-      setError(null)
+      console.log(res.data);
+      setError(null);
     } catch (err) {
-      setError(err)
+      setError(err);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   useEffect(() => {
-    fetchData(params)
-  }, [])
+    fetchData(params);
+  }, []);
 
-  return { response, error, loading }
-}
+  return { response, error, loading };
+};
 
-export default UseAxios
+export default UseAxios;

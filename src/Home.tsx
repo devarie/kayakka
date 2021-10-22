@@ -2,7 +2,7 @@ import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
 import React from 'react'
-import UseAxios from './hooks/useAxios'
+import useAxios from './hooks/useAxios'
 import ImageGridList from './Imageflex'
 
 // import ImageGridListZO from './ImageflexZO'
@@ -20,6 +20,9 @@ const useStyles = makeStyles(theme => ({
 
 const Home = () => {
   const classes = useStyles()
+ const a = useAxios('bla')
+
+ console.log("a", a)
 
   return (
     <div>
