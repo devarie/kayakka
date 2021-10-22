@@ -1,10 +1,10 @@
-import Autumn from './images/Autumnadam.jpeg'
-import duikboot from './images/duikboot.jpeg'
-import excelsiorbnb from './images/excelsiorbnb.jpeg'
-import genieten from './images/genieten.jpeg'
-import genieten2 from './images/genieten2.jpeg'
-import kayakart from './images/kayak-art.jpeg'
-import Zelfbedieningsluis from './images/Zelfbedieningsluis.jpeg'
+import Autumn from './Images/Autumnadam.jpeg'
+import duikboot from './Images/duikboot.jpeg'
+import excelsiorbnb from './Images/excelsiorbnb.jpeg'
+import genieten from './Images/genieten.jpeg'
+import genieten2 from './Images/genieten2.jpeg'
+import kayakart from './Images/kayak-art.jpeg'
+import Zelfbedieningsluis from './Images/Zelfbedieningsluis.jpeg'
 
 const tileData = [
   {

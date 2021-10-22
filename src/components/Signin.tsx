@@ -12,7 +12,7 @@ import Grid from '@material-ui/core/Grid'
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
-import Autumn from '../images/Autumnadam.jpeg'
+import Autumn from '../Images/Autumnadam.jpeg'
 
 function Copyright() {
   return (

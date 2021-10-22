@@ -4,18 +4,18 @@ import axios from 'axios'
 axios.defaults.baseURL = 'http://res.cloudinary.com/kayaknews'
 
 interface CategoryInterface {
-  id: string
-  name: string
+  id: string;
+  name: string;
 }
 interface errInterface {
-  id: string
-  name: string
+  id: string;
+  name: string;
 }
 
-type IData = CategoryInterface[]
-type err = errInterface[]
+type IData = CategoryInterface[];
+type err = errInterface[];
 
-const useAxios = (params: any) => {
+const UseAxios = (params: any) => {
   const [response, setResponse] = useState(null)
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -27,8 +27,10 @@ const useAxios = (params: any) => {
       const res = await axios.request(params)
 
       setResponse(res.data)
+      // eslint-disable-next-line no-console
+      console.log(res.data)
       setError(null)
-    } catch (err: any) {
+    } catch (err) {
       setError(err)
     } finally {
       setLoading(false)
@@ -42,4 +44,4 @@ const useAxios = (params: any) => {
   return { response, error, loading }
 }
 
-export default useAxios
+export default UseAxios

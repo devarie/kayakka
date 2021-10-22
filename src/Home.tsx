@@ -2,9 +2,11 @@ import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
 import React from 'react'
+import UseAxios from './hooks/useAxios'
 import ImageGridList from './Imageflex'
-import ImageGridListZO from './ImageflexZO'
-import Nightkayaking from './Cloudinary'
+
+// import ImageGridListZO from './ImageflexZO'
+// import Nightkayaking from './Cloudinary'
 
 const useStyles = makeStyles(theme => ({
   heroContent: {
