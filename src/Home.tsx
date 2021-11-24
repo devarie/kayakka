@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
 import React from 'react'
 import useAxios from './hooks/useAxios'
-import ImageGridList from './Imageflex'
+import ImageGridList from './ImageGridList'
+import Nightkayaking from './Cloudinary'
 
 // import ImageGridListZO from './ImageflexZO'
-// import Nightkayaking from './Cloudinary'
 
 const useStyles = makeStyles(theme => ({
   heroContent: {
@@ -20,13 +20,14 @@ const useStyles = makeStyles(theme => ({
 
 const Home = () => {
   const classes = useStyles()
-  const a = useAxios('kayakverkantie/Nightkayaking/KayakplusBavaria_knuyfv.jpg').response
+  const a = useAxios('image/list/night-tag.json').response
 
+  // eslint-disable-next-line no-console
   console.log('a', a)
 
   return (
     <div>
-      {/* <Nightkayaking /> */}
+      <Nightkayaking />
       {/* <ImageGridListZO /> */}
       <div className={classes.boxx}>
         <Container maxWidth="sm" component="main" className={classes.heroContent}>
@@ -40,7 +41,7 @@ const Home = () => {
           </Typography>
         </Container>
       </div>
-      <ImageGridList />
+      {/* <ImageGridList /> */}
     </div>
   )
 }
