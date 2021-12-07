@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
 import React from 'react'
 import useAxios from './hooks/useAxios'
-import ImageGridList from './ImageGridList'
+// import ImageGridList from './ImageGridList'
 import Nightkayaking from './Cloudinary'
 
 // import ImageGridListZO from './ImageflexZO'
