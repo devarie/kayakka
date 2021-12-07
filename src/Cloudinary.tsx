@@ -49,8 +49,6 @@ const Nightkayaking = () => {
   //= ========================
 
   // Resize to 250 x 250 pixels using the 'fill' crop mode.
-  
-
   // 5. Deliver your image
   // =========================
 
@@ -66,8 +64,8 @@ const Nightkayaking = () => {
           <AdvancedImage cldImg={Scheepvaartmuseum} plugins={[responsive(1100)]} />
           {/* <Item>xs=4</Item> */}
         </Grid>
-        <AdvancedImage cldImg={Pakhuis} plugins={[responsive(100)]} />
         <Grid item xs={4}>
+          <AdvancedImage cldImg={Pakhuis} plugins={[responsive(100)]} />
           {/* <Item>xs=4</Item> */}
         </Grid>
         <Grid item xs={4}>
