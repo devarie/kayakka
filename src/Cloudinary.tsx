@@ -49,15 +49,7 @@ const Nightkayaking = () => {
   //= ========================
 
   // Resize to 250 x 250 pixels using the 'fill' crop mode.
-  KayakplusBavaria.resize(fill().width(480).height(320))
-  Pakhuis.resize(fill().width(480).height(320))
-  Reguliersgracht.resize(fill().width(480).height(320))
-  Westerkerk.resize(fill().width(480).height(320))
-  Spiegelgracht.resize(fill().width(480).height(320))
-  Scheepvaartmuseum.resize(fill().width(480).height(320))
-  Magerebrug2.resize(fill().width(480).height(320))
-  Bruggen.resize(fill().width(480).height(320))
-  Scheepvaartmuseum2.resize(fill().width(480).height(320))
+  
 
   // 5. Deliver your image
   // =========================
