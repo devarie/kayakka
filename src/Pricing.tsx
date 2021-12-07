@@ -75,7 +75,7 @@ const tiers = [
     title: '3 Hour Full Moon Night Trip',
     price: '30',
     description: ['1 Persons', 'Kayak and Paddles', 'Guide included',
-    'Luggage compartment', '19 november 2021'],
+    'Luggage compartment', '19 December 2021'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
     color: 'inherit',
