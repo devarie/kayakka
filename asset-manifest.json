@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kayakka/static/css/main.4ba76119.chunk.css",
-    "main.js": "/kayakka/static/js/main.15c1e5e0.chunk.js",
-    "main.js.map": "/kayakka/static/js/main.15c1e5e0.chunk.js.map",
+    "main.js": "/kayakka/static/js/main.25503e34.chunk.js",
+    "main.js.map": "/kayakka/static/js/main.25503e34.chunk.js.map",
     "runtime-main.js": "/kayakka/static/js/runtime-main.a2873bed.js",
     "runtime-main.js.map": "/kayakka/static/js/runtime-main.a2873bed.js.map",
     "static/js/2.ab51533e.chunk.js": "/kayakka/static/js/2.ab51533e.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a2873bed.js",
     "static/js/2.ab51533e.chunk.js",
     "static/css/main.4ba76119.chunk.css",
-    "static/js/main.15c1e5e0.chunk.js"
+    "static/js/main.25503e34.chunk.js"
   ]
 }
