@@ -10,6 +10,7 @@ import StarIcon from '@material-ui/icons/StarBorder'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
+import Background from './images/genieten.jpeg'
 
 const useStyles = makeStyles(theme => ({
   // root: {
@@ -26,6 +27,9 @@ const useStyles = makeStyles(theme => ({
 
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
+  },
+  background: {
+    backgroundImage: `url(${Background})`,
   },
   toolbar: {
     flexWrap: 'wrap',
@@ -145,7 +149,7 @@ export default function Pricing() {
   const classes = useStyles()
 
   return (
-    <>
+    <div className={classes.background}>
       <CssBaseline />
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
@@ -220,6 +224,6 @@ export default function Pricing() {
         </Box>
       </Container> */}
       {/* End footer */}
-    </>
+    </div>
   )
 }

@@ -5,9 +5,9 @@ import React from 'react'
 import { AdvancedImage, responsive } from '@cloudinary/react'
 import { Cloudinary } from '@cloudinary/url-gen'
 // import { styled } from '@mui/material/styles'
-import Box from '@mui/material/Box'
+// import Box from '@mui/material/Box'
 // import Paper from '@mui/material/Paper'
-import Grid from '@mui/material/Grid'
+// import Grid from '@mui/material/Grid'
 
 // Import any actions required for transformations.
 // import { fill } from '@cloudinary/url-gen/actions/resize'
@@ -35,9 +35,9 @@ const Nightkayaking = () => {
   //= ==================
 
   // Instantiate a CloudinaryImage object for the image with the public ID, 'sample'.
-  const KayakplusBavaria = cld.image('kayakverkantie/Nightkayaking/KayakplusBavaria_knuyfv')
-  const Pakhuis = cld.image('kayakverkantie/Nightkayaking/Pakhuis_mwdvz9')
-  const Reguliersgracht = cld.image('kayakverkantie/Nightkayaking/Reguliersgracht_etc5bc')
+  // const KayakplusBavaria = cld.image('kayakverkantie/Nightkayaking/KayakplusBavaria_knuyfv')
+  // const Pakhuis = cld.image('kayakverkantie/Nightkayaking/Pakhuis_mwdvz9')
+  // const Reguliersgracht = cld.image('kayakverkantie/Nightkayaking/Reguliersgracht_etc5bc')
   const Scheepvaartmuseum = cld.image('kayakverkantie/Nightkayaking/Scheepvaartmuseum3_mqwgho.jpg')
   // const Westerkerk = cld.image('kayakverkantie/Nightkayaking/Westerkerk2_uysbok')
   // const Spiegelgracht = cld.image('kayakverkantie/Nightkayaking/Spiegelgracht_a5umen.jpg')
@@ -54,26 +54,28 @@ const Nightkayaking = () => {
 
   // Render the image in a React component.
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid item xs={4}>
-          <AdvancedImage cldImg={KayakplusBavaria} plugins={[responsive(100)]} />
-          {/* <Item>xs=8</Item> */}
-        </Grid>
-        <Grid item xs={4}>
-          <AdvancedImage cldImg={Scheepvaartmuseum} plugins={[responsive(1100)]} />
-          {/* <Item>xs=4</Item> */}
-        </Grid>
-        <Grid item xs={4}>
-          <AdvancedImage cldImg={Pakhuis} plugins={[responsive(100)]} />
-          {/* <Item>xs=4</Item> */}
-        </Grid>
-        <Grid item xs={4}>
-          <AdvancedImage cldImg={Reguliersgracht} plugins={[responsive(100)]} />
-          {/* <Item>xs=8</Item> */}
-        </Grid>
-      </Grid>
-    </Box>
+    <AdvancedImage cldImg={Scheepvaartmuseum} plugins={[responsive(100)]} />
+
+    // <Box sx={{ flexGrow: 1 }}>
+    //   <Grid container spacing={2}>
+    //     <Grid item xs={4}>
+    //       <AdvancedImage cldImg={KayakplusBavaria} plugins={[responsive(100)]} />
+    //       {/* <Item>xs=8</Item> */}
+    //     </Grid>
+    //     <Grid item xs={8}>
+    //       <AdvancedImage cldImg={Scheepvaartmuseum} plugins={[responsive(100)]} />
+    //       {/* <Item>xs=4</Item> */}
+    //     </Grid>
+    //     <Grid item xs={2}>
+    //       <AdvancedImage cldImg={Pakhuis} plugins={[responsive(100)]} />
+    //       {/* <Item>xs=4</Item> */}
+    //     </Grid>
+    //     <Grid item xs={4}>
+    //       <AdvancedImage cldImg={Reguliersgracht} plugins={[responsive(100)]} />
+    //       {/* <Item>xs=8</Item> */}
+    //     </Grid>
+    //   </Grid>
+    // </Box>
   )
 }
 //     <div>

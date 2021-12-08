@@ -3,12 +3,17 @@ import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
 import React from 'react'
 import useAxios from './hooks/useAxios'
-// import ImageGridList from './ImageGridList'
+import ImageGridList from './ImageGridList'
+import ImageGridListZO from './ImageGridListZO'
 import Nightkayaking from './Cloudinary'
 
-// import ImageGridListZO from './ImageflexZO'
-
 const useStyles = makeStyles(theme => ({
+  box: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+  },
   heroContent: {
     padding: theme.spacing(8, 0, 6),
     background: 'linear-gradient(360deg, rgba(245, 229, 27, 1) 30%,rgba(255, 255, 126, 1)  90%)',
@@ -27,21 +32,21 @@ const Home = () => {
 
   return (
     <div>
-      <Nightkayaking />
-      {/* <ImageGridListZO /> */}
+      <ImageGridListZO />
       <div className={classes.boxx}>
         <Container maxWidth="sm" component="main" className={classes.heroContent}>
           {a && <img src={a} alt="test" style={{ width: '400px', height: '400px' }} />}
           <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             KAYAK EXPEDITIONS
           </Typography>
+          <Nightkayaking />
           <Typography variant="h5" align="center" color="textSecondary">
             Get in and paddle away, you are not meant to stay. Explore Adam and his surroundings in a explicit and sophisticated way, during
             a route making adventures only you can say!
           </Typography>
         </Container>
       </div>
-      {/* <ImageGridList /> */}
+      <ImageGridList />
     </div>
   )
 }

@@ -52,7 +52,7 @@ const tileData = [
     img: zwaantjes,
     title: 'Bike',
     author: 'danfador',
-    cols: 2,
+    cols: 3,
   },
 ]
 
