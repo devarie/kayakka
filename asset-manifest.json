@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/kayakka/static/css/main.4ba76119.chunk.css",
-    "main.js": "/kayakka/static/js/main.25503e34.chunk.js",
-    "main.js.map": "/kayakka/static/js/main.25503e34.chunk.js.map",
+    "main.js": "/kayakka/static/js/main.9b9b442e.chunk.js",
+    "main.js.map": "/kayakka/static/js/main.9b9b442e.chunk.js.map",
     "runtime-main.js": "/kayakka/static/js/runtime-main.a2873bed.js",
     "runtime-main.js.map": "/kayakka/static/js/runtime-main.a2873bed.js.map",
-    "static/js/2.ab51533e.chunk.js": "/kayakka/static/js/2.ab51533e.chunk.js",
-    "static/js/2.ab51533e.chunk.js.map": "/kayakka/static/js/2.ab51533e.chunk.js.map",
+    "static/js/2.ef0c7904.chunk.js": "/kayakka/static/js/2.ef0c7904.chunk.js",
+    "static/js/2.ef0c7904.chunk.js.map": "/kayakka/static/js/2.ef0c7904.chunk.js.map",
     "index.html": "/kayakka/index.html",
     "static/css/main.4ba76119.chunk.css.map": "/kayakka/static/css/main.4ba76119.chunk.css.map",
-    "static/js/2.ab51533e.chunk.js.LICENSE.txt": "/kayakka/static/js/2.ab51533e.chunk.js.LICENSE.txt",
+    "static/js/2.ef0c7904.chunk.js.LICENSE.txt": "/kayakka/static/js/2.ef0c7904.chunk.js.LICENSE.txt",
     "static/media/Autumnadam.106c10a0.jpeg": "/kayakka/static/media/Autumnadam.106c10a0.jpeg",
+    "static/media/MolenZO.989d3de1.jpeg": "/kayakka/static/media/MolenZO.989d3de1.jpeg",
+    "static/media/Prinseneiland.17746212.jpeg": "/kayakka/static/media/Prinseneiland.17746212.jpeg",
+    "static/media/SchilderijZO.b17a720e.jpeg": "/kayakka/static/media/SchilderijZO.b17a720e.jpeg",
+    "static/media/Waterlelies.4eca66f2.jpeg": "/kayakka/static/media/Waterlelies.4eca66f2.jpeg",
+    "static/media/Zaandam.2e693fc1.jpeg": "/kayakka/static/media/Zaandam.2e693fc1.jpeg",
     "static/media/Zelfbedieningsluis.407a589e.jpeg": "/kayakka/static/media/Zelfbedieningsluis.407a589e.jpeg",
     "static/media/duikboot.df2d0f67.jpeg": "/kayakka/static/media/duikboot.df2d0f67.jpeg",
     "static/media/excelsiorbnb.291f52ef.jpeg": "/kayakka/static/media/excelsiorbnb.291f52ef.jpeg",
@@ -21,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a2873bed.js",
-    "static/js/2.ab51533e.chunk.js",
+    "static/js/2.ef0c7904.chunk.js",
     "static/css/main.4ba76119.chunk.css",
-    "static/js/main.25503e34.chunk.js"
+    "static/js/main.9b9b442e.chunk.js"
   ]
 }
