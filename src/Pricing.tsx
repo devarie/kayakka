@@ -78,12 +78,12 @@ const tiers = [
   {
     title: '3 Hour Full Moon Night Trip',
     price: '30',
-    description: ['1 Persons', 'Kayak and Paddles', 'Guide included',
-    'Luggage compartment', '19 December 2021'],
+    description: ['1 Person', 'Kayak and Paddles', 'Gluhwein included',
+    'Light your own kayak', '18 December 2021'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
     color: 'inherit',
-    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/s10189cb097b516147fb8c75418ba572302a8c856',
+    link: 'https://booking.setmore.com/scheduleappointment/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/026fcb73-3bf3-4482-9732-913044409990',
   },
   // {
   //   title: '2.5 hour daytrip',
