@@ -69,8 +69,8 @@ const useStyles = makeStyles(theme => ({
   // },
   pricingContent: {
     // height: '11vh',
-    paddingBottom: theme.spacing(4),
-    marginBottom: theme.spacing(4),
+    paddingBottom: theme.spacing(0),
+    marginBottom: theme.spacing(0),
   },
 }))
 
