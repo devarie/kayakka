@@ -76,7 +76,7 @@ const useStyles = makeStyles(theme => ({
 
 const tiers = [
   {
-    title: '3 Hour Full Moon Night Trip',
+    title: '3 Hour Full Moon Light Festival',
     price: 'Priceless',
     description: ['1 Person', 'Kayak and Paddles', 'Gluhwein included',
     'Light your own kayak', '19 December 2021'],
