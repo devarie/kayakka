@@ -77,9 +77,9 @@ const useStyles = makeStyles(theme => ({
 const tiers = [
   {
     title: '3 Hour Full Moon Night Trip',
-    price: '30',
+    price: 'less',
     description: ['1 Person', 'Kayak and Paddles', 'Gluhwein included',
-    'Light your own kayak', '18 December 2021'],
+    'Light your own kayak', '19 December 2021'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
     color: 'inherit',
