@@ -3,14 +3,15 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'http://res.cloudinary.com/kayaknews/'
-
+axios.defaults.baseURL = 'https://api.nytimes.com/svc/movies/v2'
+// apikey: eCyAdTqnMTg1ImS49iJfUCpHSInZJ7Au
 const useAxios = (params: any) => {
   interface CategoryInterface {
     id: string
     name: string
   }
   interface errInterface {
-    code : number
+    code: number
     prevState: null
   }
   type IData = CategoryInterface[]

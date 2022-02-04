@@ -69,7 +69,7 @@ const useStyles = makeStyles(theme => ({
   // },
   pricingContent: {
     // height: '11vh',
-    paddingBottom: theme.spacing(0),
+    paddingBottom: theme.spacing(12),
     marginBottom: theme.spacing(0),
   },
 }))
@@ -77,12 +77,12 @@ const useStyles = makeStyles(theme => ({
 const tiers = [
   {
     title: '3 Hour Full Moon Light Festival',
-    price: 'Priceless',
+    price: '45',
     description: ['1 Person', 'Kayak and Paddles', 'Gluhwein included',
-    'Light your own kayak', '19 December 2021'],
+    'Light your own kayak', '16 April 2022'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
-    color: 'inherit',
+    color: 'green',
     link: 'https://booking.setmore.com/scheduleappointment/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/026fcb73-3bf3-4482-9732-913044409990',
   },
   // {
