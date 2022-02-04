@@ -9,6 +9,7 @@ import Grid from '@material-ui/core/Grid'
 import StarIcon from '@material-ui/icons/StarBorder'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
+import { yellow } from '@material-ui/core/colors'
 import Container from '@material-ui/core/Container'
 import Background from './images/genieten.jpeg'
 
@@ -30,6 +31,7 @@ const useStyles = makeStyles(theme => ({
   },
   background: {
     backgroundImage: `url(${Background})`,
+    backgroundSize: 'cover',
   },
   toolbar: {
     flexWrap: 'wrap',
@@ -190,7 +192,18 @@ export default function Pricing() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant="outlined" color="primary" href={tier.link} target="_blank">
+                  <Button
+                    fullWidth
+                    variant="outlined"
+                    color="primary"
+                    href={tier.link}
+                    target="_blank"
+                    style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    backgroundColor: yellow[500],
+                }}>
                     {tier.buttonText}
                   </Button>
                 </CardActions>
