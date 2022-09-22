@@ -1,10 +1,9 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import GridList from '@material-ui/core/GridList'
-import GridListTile from '@material-ui/core/GridListTile'
+import { ImageList, ImageListItem } from '@material-ui/core'
 import tileDataZO from './TileDataZO'
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme: { palette: { background: { paper: any } } }) => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -23,13 +22,13 @@ export default function ImageGridListZO() {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={240} className={classes.gridList} cols={3}>
+      <ImageList cellHeight={240} className={classes.gridList} cols={3}>
         {tileDataZO.map(tile => (
-          <GridListTile key={tile.img} cols={tile.cols || 1}>
+          <ImageListItem key={tile.img} cols={tile.cols || 1}>
             <img src={tile.img} alt={tile.title} />
-          </GridListTile>
+          </ImageListItem>
         ))}
-      </GridList>
+      </ImageList>
     </div>
   )
 }

@@ -9,7 +9,9 @@ import Grid from '@material-ui/core/Grid'
 import StarIcon from '@material-ui/icons/StarBorder'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
+import { yellow } from '@material-ui/core/colors'
 import Container from '@material-ui/core/Container'
+import Background from './images/genieten.jpeg'
 
 const useStyles = makeStyles(theme => ({
   // root: {
@@ -27,6 +29,10 @@ const useStyles = makeStyles(theme => ({
   appBar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
   },
+  background: {
+    backgroundImage: `url(${Background})`,
+    backgroundSize: 'cover',
+  },
   toolbar: {
     flexWrap: 'wrap',
   },
@@ -38,7 +44,7 @@ const useStyles = makeStyles(theme => ({
   },
   heroContent: {
     // height: '11%',
-    padding: theme.spacing(8, 0, 6),
+    padding: theme.spacing(8, 0, 0),
     marginBottom: theme.spacing(4),
   },
   cardHeader: {
@@ -65,48 +71,49 @@ const useStyles = makeStyles(theme => ({
   // },
   pricingContent: {
     // height: '11vh',
-    paddingBottom: theme.spacing(4),
-    marginBottom: theme.spacing(4),
+    paddingBottom: theme.spacing(12),
+    marginBottom: theme.spacing(0),
   },
 }))
 
 const tiers = [
   {
-    title: '2.5 hour daytrip',
-    price: '20',
-    description: ['1 Persons', 'Kayak and Paddles', 'Luggage compartment'],
+    title: 'Full Moon Expedition',
+    price: '45',
+    description: ['1 Person', 'Kayak and Paddles', 'Bring Scotch',
+    'Light your own kayak', '8 October 2022'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
-    color: 'inherit',
-    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/s10189cb097b516147fb8c75418ba572302a8c856',
+    color: 'green',
+    link: 'https://booking.setmore.com/scheduleappointment/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/026fcb73-3bf3-4482-9732-913044409990',
   },
-  {
-    title: '2.5 hour daytrip',
-    price: '40',
-    description: ['2 Persons', '2 Kayaks and Paddles', 'Luggage compartments'],
-    buttonText: 'Reserve your expedition',
-    color: 'inherit',
-    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sa01a76f4b4c339ee89569dc98f03171b370ba285',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: '2.5 hour daytrip',
-    price: '40',
-    description: ['2 Persons', '2 person Kayak and Paddles'],
-    buttonText: 'Reserve your Expedition',
-    color: 'inherit',
-    buttonVariant: 'contained',
-    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sce393183ebc52e53e49879be6f846daff8ca468e',
-  },
-  {
-    title: '4 hour daytrip',
-    price: '340',
-    description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment', '', ''],
-    buttonVariant: 'outlined',
-    buttonText: 'Reserver your Expedition',
-    color: 'inherit',
-    link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/78b57d2a-8abe-4c90-8ab6-a6195397235b',
-  },
+  // {
+  //   title: '2.5 hour daytrip',
+  //   price: '40',
+  //   description: ['2 Persons', '2 Kayaks and Paddles', 'Luggage compartments'],
+  //   buttonText: 'Reserve your expedition',
+  //   color: 'inherit',
+  //   link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sa01a76f4b4c339ee89569dc98f03171b370ba285',
+  //   buttonVariant: 'outlined',
+  // },
+  // {
+  //   title: '2.5 hour daytrip',
+  //   price: '40',
+  //   description: ['2 Persons', '2 person Kayak and Paddles'],
+  //   buttonText: 'Reserve your Expedition',
+  //   color: 'inherit',
+  //   buttonVariant: 'contained',
+  //   link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/services/sce393183ebc52e53e49879be6f846daff8ca468e',
+  // },
+  // {
+  //   title: '4 hour daytrip',
+  //   price: '340',
+  //   description: ['4 Persons', 'Kayaks and Paddles', 'Guide included', 'Luggage compartment', '', ''],
+  //   buttonVariant: 'outlined',
+  //   buttonText: 'Reserver your Expedition',
+  //   color: 'inherit',
+  //   link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/78b57d2a-8abe-4c90-8ab6-a6195397235b',
+  // },
   {
     title: 'Day and Night trip',
     subheader: 'Most popular',
@@ -130,13 +137,11 @@ const tiers = [
       '4 Persons',
       'Kayaks and Paddles',
       'Guide included',
-      'Luggage compartment',
       '2 hotel nights incl.',
       'Fine dining possibilities',
       'Scenery Photography',
     ],
-
-    buttonText: 'Reserver your Expedition',
+    buttonText: 'Reserve your Expedition',
     color: 'inherit',
     link: 'http://my.setmore.com/bookingpage/231dbc8e-5185-4212-9c8b-f38ea033ed48/class/da5536ed-7a18-47e4-a511-153fc7f7d63f',
   },
@@ -146,7 +151,7 @@ export default function Pricing() {
   const classes = useStyles()
 
   return (
-    <>
+    <div className={classes.background}>
       <CssBaseline />
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
@@ -187,7 +192,19 @@ export default function Pricing() {
                   </ul>
                 </CardContent>
                 <CardActions>
-                  <Button fullWidth variant="outlined" color="primary" href={tier.link} target="_blank">
+                  <Button
+                    fullWidth
+                    variant="outlined"
+                    color="primary"
+                    href={tier.link}
+                    target="_blank"
+                    style={{
+                      border: 5,
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    backgroundColor: yellow[500],
+                }}>
                     {tier.buttonText}
                   </Button>
                 </CardActions>
@@ -221,6 +238,6 @@ export default function Pricing() {
         </Box>
       </Container> */}
       {/* End footer */}
-    </>
+    </div>
   )
 }

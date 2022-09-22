@@ -5,6 +5,7 @@ import genieten from './images/genieten.jpeg'
 import genieten2 from './images/genieten2.jpeg'
 import kayakart from './images/kayak-art.jpeg'
 import Zelfbedieningsluis from './images/Zelfbedieningsluis.jpeg'
+import zwaantjes from './images/zwaantjes.jpeg'
 
 const tileData = [
   {
@@ -46,6 +47,12 @@ const tileData = [
     title: 'Bike',
     author: 'danfador',
     cols: 2,
+  },
+  {
+    img: zwaantjes,
+    title: 'Bike',
+    author: 'danfador',
+    cols: 3,
   },
 ]
 

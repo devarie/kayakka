@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
 
     height: 168,
-    padding: '0 30px',
+    padding: '0 0 px',
     maxWidth: '100%',
   },
   Container: {
