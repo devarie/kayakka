@@ -78,10 +78,10 @@ const useStyles = makeStyles(theme => ({
 
 const tiers = [
   {
-    title: '3 Hour Full Moon Light Festival',
+    title: 'Full Moon Expedition',
     price: '45',
-    description: ['1 Person', 'Kayak and Paddles', 'Gluhwein included',
-    'Light your own kayak', '16 April 2022'],
+    description: ['1 Person', 'Kayak and Paddles', 'Bring Scotch',
+    'Light your own kayak', '8 October 2022'],
     buttonText: 'Reserve your Expedition',
     buttonVariant: 'outlined',
     color: 'green',
@@ -199,6 +199,7 @@ export default function Pricing() {
                     href={tier.link}
                     target="_blank"
                     style={{
+                      border: 5,
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'center',
